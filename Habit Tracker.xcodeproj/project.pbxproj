@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3CE0D82B7BBCC9004C9BD8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CE0D72B7BBCC9004C9BD8 /* DetailView.swift */; };
+		BC3CE0DA2B7D0B05004C9BD8 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CE0D92B7D0B05004C9BD8 /* AddView.swift */; };
 		BCE8BE8A2B7A9A6500AA4AD1 /* Habit_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8BE892B7A9A6500AA4AD1 /* Habit_TrackerApp.swift */; };
 		BCE8BE8C2B7A9A6500AA4AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8BE8B2B7A9A6500AA4AD1 /* ContentView.swift */; };
 		BCE8BE8E2B7A9A6700AA4AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE8BE8D2B7A9A6700AA4AD1 /* Assets.xcassets */; };
 		BCE8BE922B7A9A6700AA4AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE8BE912B7A9A6700AA4AD1 /* Preview Assets.xcassets */; };
+		BCE8BE992B7A9AA000AA4AD1 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8BE982B7A9AA000AA4AD1 /* Habit.swift */; };
+		BCE8BE9B2B7A9B5B00AA4AD1 /* HabitsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8BE9A2B7A9B5B00AA4AD1 /* HabitsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC3CE0D72B7BBCC9004C9BD8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BC3CE0D92B7D0B05004C9BD8 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		BCE8BE862B7A9A6500AA4AD1 /* Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE8BE892B7A9A6500AA4AD1 /* Habit_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerApp.swift; sourceTree = "<group>"; };
 		BCE8BE8B2B7A9A6500AA4AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCE8BE8D2B7A9A6700AA4AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE8BE8F2B7A9A6700AA4AD1 /* Habit_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Habit_Tracker.entitlements; sourceTree = "<group>"; };
 		BCE8BE912B7A9A6700AA4AD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCE8BE982B7A9AA000AA4AD1 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		BCE8BE9A2B7A9B5B00AA4AD1 /* HabitsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				BCE8BE892B7A9A6500AA4AD1 /* Habit_TrackerApp.swift */,
 				BCE8BE8B2B7A9A6500AA4AD1 /* ContentView.swift */,
+				BC3CE0D72B7BBCC9004C9BD8 /* DetailView.swift */,
+				BC3CE0D92B7D0B05004C9BD8 /* AddView.swift */,
+				BCE8BE982B7A9AA000AA4AD1 /* Habit.swift */,
+				BCE8BE9A2B7A9B5B00AA4AD1 /* HabitsList.swift */,
 				BCE8BE8D2B7A9A6700AA4AD1 /* Assets.xcassets */,
 				BCE8BE8F2B7A9A6700AA4AD1 /* Habit_Tracker.entitlements */,
 				BCE8BE902B7A9A6700AA4AD1 /* Preview Content */,
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE8BE992B7A9AA000AA4AD1 /* Habit.swift in Sources */,
 				BCE8BE8C2B7A9A6500AA4AD1 /* ContentView.swift in Sources */,
+				BC3CE0DA2B7D0B05004C9BD8 /* AddView.swift in Sources */,
+				BCE8BE9B2B7A9B5B00AA4AD1 /* HabitsList.swift in Sources */,
+				BC3CE0D82B7BBCC9004C9BD8 /* DetailView.swift in Sources */,
 				BCE8BE8A2B7A9A6500AA4AD1 /* Habit_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
